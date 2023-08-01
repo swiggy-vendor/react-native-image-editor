@@ -21,6 +21,7 @@ def getExtOrIntegerDefault(name) {
 apply plugin: 'com.android.library'
 
 android {
+namespace "com.reactnativecommunity.imageeditor"
     compileSdkVersion getExtOrIntegerDefault('compileSdkVersion')
     buildToolsVersion getExtOrDefault('buildToolsVersion')
 
